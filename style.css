@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    height: 100%;
+	background: white;
+	background: radial-gradient(circle, #fff 10%, #ccc);
+}
+header{
+    text-align: center;
+}
+h3{
+    padding-top: 20px;
+}
+@media screen and (min-width: 320px){
+.content{
+    width: 500px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+}
+@media screen and (min-width: 1205px){
+    .content{
+        width: 500px;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 420px;
+    }
+    }
+.button-start{
+    width: 500px;
+    background:#ff8080;
+    height: 250px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    
+}
+button{
+    margin-top: 75px;
+    width: 150px;
+    height: 70px;
+}
