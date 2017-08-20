@@ -1,0 +1,40 @@
+# simpleMath
+Kuis Perhitungan Operasi Matematika
+
+## PSEUDOCODE
+SIMPAN sebuah variabel "array angka"
+SIMPAN sebuah variabel "random angka"
+READ dan SIMPAN sebuah variabel "hasil penjumlahan"
+READ dan SIMPAN sebuah variabel "hasil perkalian"
+SIMPAN sebuah variabel "score" dan isi dengan nilai 0
+
+FOR setiap pertambahan 1 'index' dari 0 sampai dengan kurang dari 10
+    MASUKKAN angka random yang dikalikan dengan nilai 10 dengan pembulatan ke bawah pada variabel "random angka"
+        IF 'random angka' tidak bernilai 0 THEN:
+            PUSH 'random angka' pada array 'array angka'
+        ENDIF
+ENDFOR
+
+SIMPAN sebuah fungsi 'penjumlahan'
+SIMPAN variabel 'hasil' dan isi dengan nilai awal 0
+FOR setiap pertambahan 1 'index' dari 0 sampai sama dengan 'panjang array' dari "array angka" dikurangi 1
+    HITUNG setiap nilai 'array angka' dijumlahkan dengan variabel 'hasil'
+ENDFOR
+    IF nilai 'hasil' sama dengan nilai 'hasil penjumlahan' THEN:
+        TULISKAN 'Selamat jawaban Anda benar!'
+        TAMBAHKAN nilai 'score' dengan 10
+    ELSE nilai 'hasil' tidak sama dengan nilai 'hasil penjumlahan' THEN:
+        TULISKAN 'Anda kurang teliti!'
+        KURANGI nilai 'score' dengan 5
+
+SIMPAN sebuah fungsi 'perkalian'
+SIMPAN variabel 'hasil' dan isi dengan nilai awal 1
+FOR setiap pertambahan 1 'index' dari 0 sampai sama dengan 'panjang array' dari "array angka" dikurangi 1
+    HITUNG setiap nilai 'array angka' dikalikan dengan variabel 'hasil'
+ENDFOR
+    IF nilai 'hasil' sama dengan nilai 'hasil perkalian' THEN:
+        TULISKAN 'Selamat jawaban Anda benar!'
+        TAMBAHKAN nilai 'score' dengan 10
+    ELSE nilai 'hasil' tidak sama dengan nilai 'hasil perkalian' THEN:
+        TULISKAN 'Anda kurang teliti!'
+        KURANGI nilai 'score' dengan 5
